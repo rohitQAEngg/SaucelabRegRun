@@ -1,8 +1,6 @@
 package org.example;
 
 
-import org.example.base.BaseTestBrowserStack;
-import org.example.base.BaseTestLamdaTest;
 import org.example.base.BaseTestSauceLab;
 import org.example.page.LoginPage;
 import org.testng.Assert;
@@ -10,7 +8,7 @@ import org.testng.annotations.Test;
 
 import static org.example.base.BaseTest1.driver;
 
-public class LoginTest extends BaseTestLamdaTest {
+public class LoginTest extends BaseTestSauceLab {
 
     @Test
     public void testValidLogin() {
